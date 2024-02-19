@@ -35,6 +35,7 @@ input[type="ad"],
 form textarea[type="description"] {
     width: 20em;
     padding: 0 .5vh;
+    resize:none;
 }
 .btns{
     padding: 0 2vh;

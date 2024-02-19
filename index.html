@@ -13,21 +13,21 @@
                  <h1>Registration Form</h1> <br><br>
                  <form action="">
                      <label for="First Name:">First Name: </label>
-                     <br><input type="text" placeholder="Enter First Name"> <br>
+                     <br><input type="text" placeholder="Enter First Name" required maxlength="40"> <br>
                      
                      <label for="Last Name:">Last Name: </label>
-                     <br><input type="text" placeholder="Enter Last Name"> <br>
+                     <br><input type="text" placeholder="Enter Last Name" required maxlength="40"> <br>
                      
                      <label for="Nick Name:">Nick Name: </label>
-                     <br><input type="text" placeholder="Enter Nick Name"> <br>
+                     <br><input type="text" placeholder="Enter Nick Name" required> <br>
          
                      <label for="Email:">Email: </label>
-                     <br><input type="email" name="" id="" placeholder="example@gmail.com"> <br>
+                     <br><input type="email" name="" id="" placeholder="example@gmail.com" required maxlength="40">  <br>
          
                      <label for="Password:">Password: </label>
-                     <br><input type="password" name="" id="" placeholder="Password must be at least 8 characters"> <br>
+                     <br><input type="password" name="" id="" placeholder="Password must be at least 8 characters" required> <br>
          
-                     <label for="Date of Birth:">Date of Birth: </label>
+                     <label for="Date of Birth:" required>Date of Birth: </label>
                      <br><input type="date"> <br>
          
                      <label for="Gender:"> Gender: </label> <br>
@@ -36,10 +36,10 @@
                      <input type="radio" name="Gender"> Other   <br>
          
                      <label for="Mobile: ">Mobile: </label>
-                     <br><input type="tel" placeholder="xx-xxx-xxxx">  <br>
+                     <br><input type="tel" placeholder="xx-xxx-xxxx" required>  <br>
          
                      <label for="Address:">Address: </label>
-                     <br><textarea type="description" name="textarea" id="" cols="30" rows="10"></textarea> <br>
+                     <br><textarea type="description" name="textarea" id="" cols="30" rows="10" required></textarea> <br>
          
                      <input type="submit" class="btns" id="submit-btn"> <input type="reset" class="btns" id="reset-btn">
                  </form>
